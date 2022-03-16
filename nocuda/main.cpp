@@ -2,6 +2,7 @@
 #include <fstream>
 #include <time.h>
 #include <cstdio>
+#include "vec3.h"
 
 int main() {
     
@@ -10,7 +11,7 @@ int main() {
     int image_height = 600;
 
     // Render
-    FILE* fp = fopen("1.ppm", "wb");
+    FILE* fp = fopen("output.ppm", "wb");
     fprintf(fp, "P3\n%d %d\n255\n",image_width,image_height);
     std::cout << "P3\n" << image_width << ' ' << image_height << "\n255\n";
     //timer
