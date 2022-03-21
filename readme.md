@@ -16,10 +16,15 @@ Click [here](https://developer.nvidia.com/cuda-toolkit-archive) to download the 
 
 
 ## Output
-
+width:1200 height:800</br>
 GPU: nvdia GeForce MX250</br>
 BLOCK: 16X16</br>
 SAMPLES:64 </br>
 TOOK：23min</br>
+
+GPU: nvdia RTX3060</br>
+BLOCK: 16X16</br>
+SAMPLES:64 </br>
+TOOK：167.286seconds</br>
 ![img](https://developer-blogs.nvidia.com/wp-content/uploads/2018/10/chapter12-768x384.jpg)
 
