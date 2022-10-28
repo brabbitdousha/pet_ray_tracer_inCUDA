@@ -22,4 +22,5 @@ now start with a few simple things
 
 - [ ] Cmakelist
 - [ ] obj reading and drawing
-- [ ] optimize the BVH construction
+- [ ] the basic BVH
+- [ ] optimize the BVH using morton code
