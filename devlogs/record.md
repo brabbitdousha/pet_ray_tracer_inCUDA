@@ -20,7 +20,7 @@ width:1200 height:800</br>
 Decide to turn this baby tracer into a bidirectional path tracing..
 now start with a few simple things
 
-- [ ] Cmakelist
+- [x] Cmakelist
 - [ ] obj reading and drawing
 - [ ] the basic BVH
 - [ ] optimize the BVH using morton code

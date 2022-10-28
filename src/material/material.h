@@ -1,8 +1,8 @@
 #ifndef MATERIAL_H
 #define MATERIAL_H
 
-#include "ray.h"
-#include "hittable.h"
+#include <geometry/ray.h>
+#include <geometry/hittable.h>
 
 struct hit_record;
 

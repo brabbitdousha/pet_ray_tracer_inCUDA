@@ -2,7 +2,7 @@
 #define CAMERA_H
 
 #include <curand_kernel.h>
-#include "ray.h"
+#include <geometry/ray.h>
 
 #ifndef M_PI
 #define M_PI 3.14159265358979323846

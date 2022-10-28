@@ -6,12 +6,12 @@
 #include <curand_kernel.h>
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"
-#include "helper/vec3.h"
-#include "geometry/ray.h"
-#include "geometry/sphere.h"
-#include "geometry/hittable_list.h"
-#include "camera/camera.h"
-#include "material/material.h"
+#include <helper/vec3.h>
+#include <geometry/ray.h>
+#include <geometry/sphere.h>
+#include <geometry/hittable_list.h>
+#include <camera/camera.h>
+#include <material/material.h>
 
 __device__ vec3 color(const ray& r, hittable** world, curandState* local_rand_state)
 {
@@ -128,9 +128,9 @@ __global__ void free_world(hittable** d_list, hittable** d_world, camera** d_cam
 int main() {
 
     // Image
-    int image_width = 1200;
-    int image_height = 800;
-    int ns = 64;
+    int image_width = 128;
+    int image_height = 128;
+    int ns = 8;
     int tx = 16;
     int ty = 16;
 
